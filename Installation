@@ -1,0 +1,18 @@
+Installation with Python 2.7.*
+1. Install pip
+2. Install setuptools module 
+   ->sudo pip install --upgrade setuptools
+3. Downgrade pip 19.0.3 to pip 9.0.3
+   ->sudo pip install --upgrade --force-reinstall pip==9.0.3
+4. sudo pip install cfn-lint 
+5. Check the instalation 
+   ->cfn-lint --version
+   
+Installation with Python 3.4.*
+1. Install pip
+2. Install setuptools module 
+   ->sudo pip install --upgrade setuptools
+3. sudo pip install cfn-lint 
+4. Check the instalation 
+   ->cfn-lint --version
+   
